@@ -1,10 +1,3 @@
-def sumofd(a):
-    sum = 0
-    while (a != 0): 
-        sum = int(sum + (a % 10))
-        a = int(a/10)
-       
-    return sum
 def random_password(data,len1,opt):
     for i in opt:
         i=int(i)
